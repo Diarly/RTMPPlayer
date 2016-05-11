@@ -23,5 +23,9 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+- (IBAction)rtmp:(UIButton *)sender {
+    
+    [self performSegueWithIdentifier:@"rtmpPush" sender:self];
+}
 
 @end
